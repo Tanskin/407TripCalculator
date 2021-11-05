@@ -27,4 +27,4 @@ Open CMD in the main folder with Maven installed and use 'mvn clean test' to run
 
 Open CMD in the main folder and use 'java -cp TripCalculator.jar TripParser' to run the app. It will ask for a start and ending interchange and output the results in console.
 
-![Example](https://i.gyazo.com/ce276a6d561f469048b99fa33536242b.png)
+![Example](https://gyazo.com/f4b496ded661ae7dbe91b6d2967a5885?token=b8caa159c6cd643679442bd1221224d3.png)
