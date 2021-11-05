@@ -113,6 +113,6 @@ public class TripCalculator
 	{
 		double total = getDistance(start, end);
 
-		return total / 0.25;
+		return total * 0.25;
 	}
 }

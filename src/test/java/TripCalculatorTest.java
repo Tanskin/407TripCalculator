@@ -44,24 +44,24 @@ public class TripCalculatorTest
 	@Test
 	public void testTotalCostAll() 
 	{
-		assertEquals(461.108, tripCalculator.getCost("QEW", "Salem Road"), 0.001);
+		assertEquals(28.8192, tripCalculator.getCost("QEW", "Salem Road"), 0.001);
 	}
 	
 	@Test
 	public void testCost1() 
 	{
-		assertEquals(214.36, tripCalculator.getCost("Britannia Road", "Leslie Street"), 0.001);
+		assertEquals(13.397, tripCalculator.getCost("Britannia Road", "Leslie Street"), 0.001);
 	}
 	
 	@Test
 	public void testCost2() 
 	{
-		assertEquals(461.108, tripCalculator.getCost("Salem Road", "QEW"), 0.001);
+		assertEquals(28.8192, tripCalculator.getCost("Salem Road", "QEW"), 0.001);
 	}
 	
 	@Test
 	public void testCost3() 
 	{
-		assertEquals(56.248, tripCalculator.getCost("QEW", "Bronte Road"), 0.001);
+		assertEquals(3.515, tripCalculator.getCost("QEW", "Bronte Road"), 0.001);
 	}
 }
