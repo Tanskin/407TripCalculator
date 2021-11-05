@@ -11,15 +11,15 @@ public class TripParser
 		TripParser tripParser = new TripParser();
 		tripCalculator = new TripCalculator(tripParser);
 		
-	    Scanner scanObj = new Scanner(System.in);
-	    System.out.println("Starting location:");
-
-	    String start = scanObj.nextLine();
-	    
-	    System.out.println("End location:");
-	    
-	    String end = scanObj.nextLine();
-
+		Scanner scanObj = new Scanner(System.in);
+		System.out.println("Starting location:");
+		
+		String start = scanObj.nextLine();
+		
+		System.out.println("End location:");
+		
+		String end = scanObj.nextLine();
+		
 		DecimalFormat df = new DecimalFormat("#.####");   
 		
 		System.out.println(start + " to " + end);
