@@ -2,7 +2,7 @@
 
 ## Exercise
 
-<Redacted for privacy>
+*Redacted for privacy*
 
 
 ## Assumptions
